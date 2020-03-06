@@ -39,7 +39,7 @@ Using as much IDE's power as we can,<br />we are going to refactor the code to r
 ## 2. Items (part 2)
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->   
 * Pokeballs also are items. A pokeball has a base efficiency (an integer between 0 and 100) and a efficiency multiplier which depends on its type. 
-* Simple pokeballs do not exist. A pokeball is always special. 2 types of pokeballs currently exist : superball (with a multiplier of 2) and hyperball (with a multiplier of 3)  
+* Simple pokeballs do not exist. A pokeball is always special. 2 types of pokeballs currently exist : ultraball (with a multiplier of 2) and greatball (with a multiplier of 3)  
 * For all pokeballs, we need to know the real efficiency which is calculated as follows : base efficiency * multiplier
 
 ----
