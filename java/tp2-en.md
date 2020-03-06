@@ -10,7 +10,7 @@
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
 * For this practical work, we will start from where we ended last week
 * You can either use your code from last week or download a correction from this git repository :  
-[https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1.zip](https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1/TP1.zip)  
+[https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1.zip](https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1.zip)  
 * Eclipse can import the project using "File => Import => General => Existing projects into Workspace" feature
 * Take some time to make sure you understand the code and what it is doing. Feel obviously free to ask questions about it
 
@@ -23,7 +23,7 @@
 Using as much IDE's power as we can,<br />we are going to refactor the code to respect encapsulation,<br />i.e. for all classes :
 * Make the relevant attributes private
 * Write getters and setters
-* Define useful constructors
+* Define useful constructors (if needed)
 * Change the Main class accordingly
 
 ----
@@ -66,7 +66,7 @@ To implement the inventory, we need the appropriate data structure
 
 ----
 
-## 5. More action
+## (bonus) 5. More action
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 Before writing AIs, we need to add more depth to fights
 * Pokemons can now defend. Add a defense score (between 0 and 90). This will be the percentage of damage that will be mitigated on each attack  
@@ -76,7 +76,7 @@ Before writing AIs, we need to add more depth to fights
 
 ----
 
-## 6. AI may be the future (part 1)
+## (bonus) 6. AI may be the future (part 1)
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 Let's write some very basic AI that will be able to decide the best move each time
 * Create an AI implementation wich acts as follow : the "brute" one constantly attacks
@@ -86,7 +86,7 @@ Let's write some very basic AI that will be able to decide the best move each ti
 
 ----
 
-## bonus. AI may be the future (part 2)
+## (bonus) 6. AI may be the future (part 2)
 
 * What do both AI implementations have in common ? Define the signature of an AI method
 * Create the corresponding AI interface and make both AI implement it
