@@ -58,6 +58,7 @@ Before programming, it's important to design the classes. Our app will respect t
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" --> 
 Pokemons are now able to gain experience points (XP)
 * Add a XP attribute to Pokemon
+* Build a new constructor : we want to be able to build Pokemon without providing its XP (in which case the default value is 0) or with a specified starting xp
 * Write a new receiveXP() method inside Pokemon. This method requires the amount of XP as parameter
 * Edit the main function to make your Pokemon receive XP 100 times (i.e. 100 times 1 point). Display the state of the Pokemon between each gain
 * Pokemons may now eat sweets in order to gain more experience. The XP boost depends on the sweet that is eaten. A Sweet contains both a name and the amount of XP it gives
