@@ -97,8 +97,7 @@ Let's write some very basic AI that will be able to decide the best move each ti
 
 ## Going deeper
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" --> 
-
-[https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/](https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/)  
+ 
 * Checkout the code from Olivier Levitt's repository [https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/](https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/) . You will find a correction for this practical work (TP2). Copy the "IAGeniale" class and make it fight your own AI. Improve your own AI until it beats "IAGeniale" (which, in reality, is not that geniale)
 * Make your AI compete against other AI in the room
 * (Going a whole lot deeper) : generate a large amount of data "state of pokemon1, state of pokemon2, action => fight's result". Using deep learning on this data, create an AI. Make it compete with other AIs
