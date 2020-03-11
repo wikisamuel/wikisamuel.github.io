@@ -10,7 +10,7 @@
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
 * For this practical work, we will start from where we ended last week
 * You can either use your code from last week or download a correction from this git repository :  
-[https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1.zip](https://github.com/wikisamuel/wikisamuel.github.io/tree/master/java/TP1.zip)  
+[https://github.com/wikisamuel/wikisamuel.github.io/raw/master/java/TP1.zip](https://github.com/wikisamuel/wikisamuel.github.io/raw/master/java/TP1.zip)  
 * Eclipse can import the project using "File => Import => General => Existing projects into Workspace" feature
 * Take some time to make sure you understand the code and what it is doing. Feel obviously free to ask questions about it
 
