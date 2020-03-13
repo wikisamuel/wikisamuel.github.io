@@ -5,6 +5,7 @@
 * Containers
 * Exceptions
 * Creation and comparison of simple Artifical Intelligences (AI)
+
 This is not a brand new practical work. The main goal is to stabilize your Java knowledge.
 
 Some leftovers from practical work 2 are back. Let's code some AI !
@@ -94,6 +95,6 @@ _You can skip this slide if you've already done this work during the previous se
 ## Going deeper
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" --> 
  
-* Checkout the code from Olivier Levitt's repository [https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/](https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/) . You will find a correction for this practical work (TP2). Copy the "IAGeniale" class and make it fight your own AI. Improve your own AI until it beats "IAGeniale" (which, in reality, is not that geniale)
+* Checkout the code from Olivier Levitt's repository [https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/](https://bitbucket.org/olevitt/formations/src/master/poo-java/TPs/TP2/) . You will find a full correction for the second practical work (TP2). Copy the "IAGeniale" class and make it fight your own AI. Improve your own AI until it beats "IAGeniale" (which, in reality, is not that geniale)
 * Using you new knowledge on arrays, investigate the infamous String[] args in main parameters
 * (Going a whole lot deeper) : generate a large amount of data "hpPokemon1, strengthPokemon1, defensePokemon1,hpPokemon2, strengthPokemon2, defensePokemon2, action => fight's result". Using a statistical method of your choice or deep learning on this data, create an AI. Make it compete with other AIs.
