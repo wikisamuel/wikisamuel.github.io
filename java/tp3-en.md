@@ -14,7 +14,7 @@ Some leftovers from practical work 2 are back. Let's code some AI !
 
 ## COVID-19 Warning
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
-* Due to the COVID-19, the exam will not take place at school. This practical work will be evaluated. You'll have to put in on Moodle before midnight.
+* Due to the COVID-19, the exam will not take place at school. This practical work will be evaluated. You'll have to put it on Moodle before midnight.
 * You have to produce one project per student, and export it as an archive file. See further instructions on Moodle.
 * To get a good grade, you are expected to do the *sidequests*. The *bonus* and *going deeper* parts are for the best students.
 
@@ -75,19 +75,19 @@ Before writing AIs, we need to add more depth to fights
 
 ----
 
-## 4. Special powers
+## 5. Special powers
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
 * We want to add special powers to our Pokemons. Special powers are not associated with species (i.e. two Pokemons from the same specie could have different special powers). A Pokemon could have 0 to several special powers.
 * Special powers are *strong* : a strong Pokemon is able to trigger an earthquake (it displays *Brrr* to the console) ; *clever* : a clever Pokemon can solve an equation (it displays *x+2=4* to the console), and *beautiful* : a beautiful Pokemon can charm other Pokemons (it displays *Hey !* to the console).
-* Define a Bulbasaur class : a Bulbasaur is a kind of Pokemon which Specie is Bulbasaur.
+* Define a StrongCleverBulbasaur class : a StrongCleverBulbasaur is a kind of Pokemon which Specie is Bulbasaur.
 * Define 3 interfaces for various types of special powers.
-* Make Bulbasaur have the strong and clever special powers. Implement relevant methods.
-* Define Charmander the same way. Charmanders are clever and beautiful.
+* Make StrongCleverBulbasaur have the strong and clever special powers. Implement relevant methods.
+* Define BeautifulCleverCharmander the same way.
 
 ----
 
-## (bonus) 5. AI may be the future (part 1)
+## (bonus) 6. AI may be the future (part 1)
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
 _Some of you might already have done this work during the last session. Feel free to reuse it._
@@ -100,7 +100,7 @@ Let's write some very basic AI that will be able to decide the best move each ti
 
 ----
 
-## (bonus) 5. AI may be the future (part 2)
+## (bonus) 6. AI may be the future (part 2)
 
 _Some of you might already have done this work during the last session. Feel free to reuse it._
 
