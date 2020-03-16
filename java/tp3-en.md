@@ -12,6 +12,14 @@ Some leftovers from practical work 2 are back. Let's code some AI !
 
 ----
 
+## COVID-19 Warning
+<!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
+* Due to the COVID-19, the exam will not take place at school. This practical work will be evaluated. You'll have to put in on Moodle before midnight.
+* You have to produce one project per student, and export it as an archive file. See further instructions on Moodle.
+* To get a good grade, you are expected to do the *sidequests*. The *bonus* and *going deeper* parts are for the best students.
+
+----
+
 ## Starting point
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
 * For this session we will start from our previous works. 
@@ -27,18 +35,18 @@ At this point, species are created at runtime within the main function.
 Supposing species are immutable and that no new species can be created, the code would be a lot more readable and simple if we created them once and for all
 * Using an Enum, rework the code to clearly instantiate all available species
 * Enjoy how smaller the main function now is and how everything is a lot more clear
-* Sidequest : rewrite the "getLevelFromXp" method inside "Level" class
+* Sidequest : rewrite the getLevelFromXp() method inside Level class
 
 ----
 
 ## 2. Lot of stuff
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
-_You can skip this slide if you've already done this work during the previous session._
+_Some of you might already have done this work during the last session using a List. This is slightly different this time, but you can still reuse part of your work._
 
 To implement the inventory, we need the appropriate data structure 
 * Which data structure would you use ?
-* Add it to Inventory
+* Add a data structure implementing the [Set](https://docs.oracle.com/javase/7/docs/api/java/util/Set.html) interface to Inventory
 * Inside main, add some items to the player's inventory
 * Add a totalPrice() method to this inventory. It returns the total price of all items contained in the inventory
 * Inside main, once it's filled, display the total price of the inventory
@@ -46,10 +54,10 @@ To implement the inventory, we need the appropriate data structure
 
 ----
 
-## 3. Lot of stuff (New !)
+## 3. Lot of stuff (Brand new !)
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
-* The inventory now has a limited space. Adding an item to a full inventory fails and the user should be informed of that.
+* The inventory now has a limited space (10 items). Adding an item to a full inventory fails and the user should be informed of that.
 * Sidequest : create a Pokedex class that will keep track of all species that the player has met. For each species, we need to know if the player has encountered it, fought it or never encountered it.
 
 ----
@@ -57,7 +65,7 @@ To implement the inventory, we need the appropriate data structure
 ## 4. More action
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
-_You can skip this slide if you've already done this work during the previous session._
+_Some of you might already have done this work during the last session. Feel free to reuse it._
 
 Before writing AIs, we need to add more depth to fights
 * Pokemons can now defend. Add a defense score (between 0 and 90). This will be the percentage of damage that will be mitigated on each attack  
@@ -67,10 +75,22 @@ Before writing AIs, we need to add more depth to fights
 
 ----
 
+## 4. Special powers
+<!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
+
+* We want to add special powers to our Pokemons. Special powers are not associated with species (i.e. two Pokemons from the same specie could have different special powers). A Pokemon could have 0 to several special powers.
+* Special powers are *strong* : a strong Pokemon is able to trigger an earthquake (it displays *Brrr* to the console) ; *clever* : a clever Pokemon can solve an equation (it displays *x+2=4* to the console), and *beautiful* : a beautiful Pokemon can charm other Pokemons (it displays *Hey !* to the console).
+* Define a Bulbasaur class : a Bulbasaur is a kind of Pokemon which Specie is Bulbasaur.
+* Define 3 interfaces for various types of special powers.
+* Make Bulbasaur have the strong and clever special powers. Implement relevant methods.
+* Define Charmander the same way. Charmanders are clever and beautiful.
+
+----
+
 ## (bonus) 5. AI may be the future (part 1)
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
 
-_You can skip this slide if you've already done this work during the previous session._
+_Some of you might already have done this work during the last session. Feel free to reuse it._
 
 Let's write some very basic AI that will be able to decide the best move each time
 * Create an AI implementation wich acts as follow : the "brute" one constantly attacks
@@ -82,7 +102,7 @@ Let's write some very basic AI that will be able to decide the best move each ti
 
 ## (bonus) 5. AI may be the future (part 2)
 
-_You can skip this slide if you've already done this work during the previous session._
+_Some of you might already have done this work during the last session. Feel free to reuse it._
 
 * What do both AI implementations have in common ? Define the signature of an AI method
 * Create the corresponding AI interface and make both AI implement it
