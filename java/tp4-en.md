@@ -19,7 +19,8 @@
 
 ## COVID-19 Warning
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
-* Two steps of this practical session will change wether you are doing it from an Ensai VM or your personal computer. This is the first one.
+Two steps of this practical session will change wether you are doing it from an Ensai VM or your personal computer. This is the first one.
+
 * In order to use maven, it may be necessary to configure the network proxy if you are using an Ensai VM. Instructions are available on Moodle : [http://foad.ensai.fr/course/view.php?id=31](http://foad.ensai.fr/course/view.php?id=31)
 * Some students using a shared connection on a campus might have a similar issue, unfortunately we cannot guess in advance what is their specific proxy address and port. Google "check proxy" with your Operating System name and version might help to find a procedure to get them. Then customize the file on Moodle with those pieces of information.
 * In order to know where to put this settings.xml file if you don't use a VM, go to Eclipse > Window > Preferences > Maven > User Settings, then put the file at the relevant location and hit the "Update Settings" button
@@ -48,9 +49,10 @@ Maven will give us a lot of power but we first need to set it up.
 
 ## 3. JDBC
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
-JDBC (Java DataBase Connectivity) is a Java standard for interacting with a relationnal database (whatever its type).  
-The way you use JDBC and the code you write doesn't depend on the database management system (DBMS) you are using (PostgreSQL, SQLite, Oracle, Sqlserver).  
-You are free to use whatever DBMS you want. We suggest you use either the database provided by Ensai (PostgreSQL) if you are working on a VM or SQlite which stores data locally inside a file if you are working on your personal computer.
+JDBC (Java DataBase Connectivity) is a Java standard for interacting with a relational database (whatever its type).  
+
+* The way you use JDBC and the code you write doesn't depend on the database management system (DBMS) you are using (PostgreSQL, SQLite, Oracle, Sqlserver).  
+* You are free to use whatever DBMS you want. We suggest you use either the database provided by Ensai (PostgreSQL) if you are working on a VM, or SQlite which stores data locally inside a file if you are working on your personal computer.
 
 ----
 
