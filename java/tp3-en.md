@@ -35,7 +35,6 @@ At this point, species are created at runtime within the main function.
 Supposing species are immutable and that no new species can be created, the code would be a lot more readable and simple if we created them once and for all
 * Using an Enum, rework the code to clearly instantiate all available species
 * Enjoy how smaller the main function now is and how everything is a lot more clear
-* Sidequest : rewrite the getLevelFromXp() method inside Level class
 
 ----
 
@@ -51,6 +50,7 @@ To implement the inventory, we need the appropriate data structure
 * Add a totalPrice() method to this inventory. It returns the total price of all items contained in the inventory
 * Inside main, once it's filled, display the total price of the inventory
 * Sidequest : rewrite Inventory's [toString()](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--) method to display the list of all item owned
+* Sidequest : rewrite the getLevelFromXp() method inside Level class
 
 ----
 
