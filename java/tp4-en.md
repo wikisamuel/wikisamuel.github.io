@@ -21,7 +21,7 @@
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
 Two steps of this practical session will change wether you are doing it from an Ensai VM or your personal computer. This is the first one.
 
-* In order to use maven, it may be necessary to configure the network proxy if you are using an Ensai VM. [Instructions](http://foad.ensai.fr/course/view.php?id=31) are available on Moodle.
+* In order to use maven, it may be necessary to configure the network proxy if you are using an Ensai VM. [Instructions](https://foad-moodle.ensai.fr/course/view.php?id=31) are available on Moodle.
 * Some students using a shared connection on a campus might have a similar issue, unfortunately we cannot guess in advance what are their specific proxy address and port. In that case, first you have to find these elements. The procedure will vary with your operating system (you can try [this](https://helpdeskgeek.com/networking/internet-connection-problem-proxy-settings/)). Second, you will have to customize the file on Moodle with those pieces of information.
 * In order to know where to put this settings.xml file if you don't use a VM, go to Eclipse > Window > Preferences > Maven > User Settings, then put the file at the relevant location and hit the "Update Settings" button
 
