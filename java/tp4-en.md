@@ -21,8 +21,8 @@
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->
 Two steps of this practical session will change wether you are doing it from an Ensai VM or your personal computer. This is the first one.
 
-* In order to use maven, it may be necessary to configure the network proxy if you are using an Ensai VM. Instructions are available on Moodle : [http://foad.ensai.fr/course/view.php?id=31](http://foad.ensai.fr/course/view.php?id=31)
-* Some students using a shared connection on a campus might have a similar issue, unfortunately we cannot guess in advance what are their specific proxy address and port. Google "check proxy" with your Operating System name and version might help to find a procedure to get them. Then customize the file on Moodle with those pieces of information.
+* In order to use maven, it may be necessary to configure the network proxy if you are using an Ensai VM. [Instructions](http://foad.ensai.fr/course/view.php?id=31) are available on Moodle.
+* Some students using a shared connection on a campus might have a similar issue, unfortunately we cannot guess in advance what are their specific proxy address and port. In that case, first you have to find these elements. The procedure will vary with your operating system (you can try [this](https://helpdeskgeek.com/networking/internet-connection-problem-proxy-settings/)). Second, you will have to customize the file on Moodle with those pieces of information.
 * In order to know where to put this settings.xml file if you don't use a VM, go to Eclipse > Window > Preferences > Maven > User Settings, then put the file at the relevant location and hit the "Update Settings" button
 
 ----
@@ -33,6 +33,7 @@ Maven will give us a lot of power but we first need to set it up.
 
 * Right click on your Java project > configure > convert to Maven Project.
 * Look at you pom.xml file, and the tree in your explorer
+* Delete the sourceDirectory line in your pom.xml
 * Run the app
 * Sidequest : use maven to compile and generate a JAR
 
@@ -40,8 +41,10 @@ Maven will give us a lot of power but we first need to set it up.
 
 ## 2. Unit testing
 <!-- .slide: data-state="no-toc-progress" class="no-toc-progress" -->  
-* Add [JUnit (5.6.0)](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.6.0) dependency
-* Write and run a unit test that will check that the attack() method deals the right amount of damage (The spec was defined in TP3 : "The logic for damage dealt change slightly. It is now : attacker's strength * (1 - target's defense score / 100). Every attack deals at least 1 damage")  
+* Add [JUnit (4.13)](https://mvnrepository.com/artifact/junit/junit/4.13) dependency
+* Move your code in `src/main/java`
+* Write an empty unit test in `src/test/java`. Update Maven project : right-click on the project > Maven > Update project. Run the test to check it works.
+* Write and run a real test now. This test will check that the attack() method deals the right amount of damage (The spec was defined in TP3 : "The logic for damage dealt change slightly. It is now : attacker's strength * (1 - target's defense score / 100). Every attack deals at least 1 damage")  
 * Detect and correct the algorithm's error
 * Sidequest : browse to you local maven repository and open the junit JAR to see what's inside
 
