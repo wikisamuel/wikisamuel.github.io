@@ -12,7 +12,7 @@
 * For this session we will start from a light version of previous works.
 * It's about the same as a finished TP3 except IAs implementations.
 * Please use this specific version even if you completed TP3.
-* Start by grabing the code from [TODO-PutUrlHere](TODO-PutUrlHere)  
+* Start by grabing the code from [https://github.com/wikisamuel/wikisamuel.github.io/raw/master/java/TP4.zip](https://github.com/wikisamuel/wikisamuel.github.io/raw/master/java/TP4.zip)   
 * Import the project into eclipse.
 
 ----
